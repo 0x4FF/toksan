@@ -26,7 +26,7 @@ class toksan:
         remove_keys_recursive(data)
             
         with open(self.output_file, 'w') as f:
-            json.dump(data, f)
+            json.dump(data, f, indent=4)
             
         if output_txt:
             with open(output_txt, 'w') as f:
