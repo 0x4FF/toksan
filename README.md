@@ -15,9 +15,6 @@ This is a Python program that allows you to remove keys from a JSON file.
 5. Press Enter to run the program.
 6. Check the output file to make sure that the specified key has been removed.
 
-## Error Handling
-
-The program includes error handling to prevent common mistakes and provide helpful error messages. If you encounter an error, the program will display a message explaining what went wrong and how to fix it.
 
 ## Examples
 
