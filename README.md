@@ -20,13 +20,15 @@ This is a Python program that allows you to remove keys from a JSON file.
 
 Here are some examples of how you can use the program:
 
-python main.py input.json output.json --key_to_remove city
+python main.py input.json output.json --k age -t nigga.txt
 
 
 This command removes the `city` key from the `input.json` file and saves the edited file as `output.json`.
 
 
-python main.py input.json output.json --key_to_remove city --text remaining.txt
+```py
+python main.py input.json output.json --k age
+```
 
 
 This command removes the `city` key from the `input.json` file, saves the edited file as `output.json`, and writes the remaining keys to `remaining.txt`.
