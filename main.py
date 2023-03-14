@@ -1,7 +1,7 @@
 import argparse
 import json
 
-class JSONEditor:
+class toksan:
     def __init__(self, input_file, output_file):
         self.input_file = input_file
         self.output_file = output_file
@@ -57,5 +57,5 @@ if __name__ == '__main__':
     parser.add_argument('-k', '--key-to-remove', metavar='KEY', required=True, help='key or value to remove from JSON')
     args = parser.parse_args()
     
-    editor = JSONEditor(args.input, args.output)
+    editor = toksan(args.input, args.output)
     editor.remove_keys(args.key_to_remove, args.text)
